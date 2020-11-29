@@ -46,10 +46,7 @@ body{
 .instagram-phone img{ 
     height: 50rem;
 }
-.phonescreen{
-    width: ;
-    
-}
+
 .instagram-logo{
     justify-content: center;
     align-items: center;
@@ -151,7 +148,14 @@ body{
 }
 
 @media(max-width: 535px) {
+    .download{
+        flex-direction: column;
+    }
     .get-app{
         width: 180%;
+        flex-basis: 100%;
+    }
+    .app-download:nth-child(1){
+        margin-bottom: 10px;
     }
 }
