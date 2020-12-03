@@ -8,6 +8,8 @@
 
 **V - 1.0** Isso, eu finalmente consegui adicionar a imagem do app dentro do celular usando position: absolute e o z-index!
 
+**V - 1.1** Transições adicionadas!!! Ainda falta aprimoramento.
+
 
 
 ##### Updates previstos: :eyeglasses:
