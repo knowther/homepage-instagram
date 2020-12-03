@@ -42,9 +42,27 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
+    height: 480px;
 }
 .instagram-phone img{ 
     height: 50rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.instagram-phone .phonescreen{
+  width: 280px;
+  height: 500px;
+  position: absolute;
+  margin-left: 90px;
+}
+
+
+.instagram-phone .phonescreen img{
+    position: absolute;
+    max-width: 380px;
+    max-height: 500px;
+    z-index: 0;
 }
 
 .instagram-logo{
